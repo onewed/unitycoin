@@ -7,13 +7,17 @@ Built on the Ethereum blockchain, the main purpose and function of Unity Coin wi
 
 Ultimately, the governance of Unity Coin will be decentralized, and facilitated by the Unity Coin Foundation.
 
-Visit the [Unity Coin ICO site][unity coin] for more information on the presale and primary crowdsale details. Also, [our whitepaper is available][unitycoin whitepaper].
+~Visit the [Unity Coin ICO site][unity coin] for more information on the presale and primary crowdsale details.~
+
+Our crowdsale has been postphoned until 2018. Thank you to everyone interested and excited in our vision.
 
 ## Contracts
 Please see the [contracts/](contracts) directory.
 
 ## Bounty Program
-We want your input! If you're interested, please see the [Unity Coin bounty program][bounty program] for participation details and instructions.
+~We want your input! If you're interested, please see the [Unity Coin bounty program][bounty program] for participation details and instructions.~
+
+Our crowdsale has been postphoned until 2018. All bug bounty submissions already received (thank you!) will be included for consideration at that time. We will be reviewing our bounty reward structure at that time as well, due to feedback received.
 
 ## Overview
 There are two primary contracts: `UnityToken.sol` (ERC-20 compliant token) and `UnitySale.sol` (the crowdsale contract). Additionally, there is a simple shared interface defined in `IRefundHandler.sol` that allows `UnityToken` and `UnitySale` to communicate refund requests and exchange wei contributions for received tokens. This refund mechanism will be triggered in the event that our sale goals are not met.
